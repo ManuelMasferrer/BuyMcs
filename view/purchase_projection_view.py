@@ -6,11 +6,11 @@ from flask import request
 from datetime import date, datetime, timedelta
 from sqlalchemy import func
 
-from azure.storage.queue import (
-        QueueClient,
-        BinaryBase64EncodePolicy,
-        BinaryBase64DecodePolicy
-)
+# from azure.storage.queue import (
+#         QueueClient,
+#         BinaryBase64EncodePolicy,
+#         BinaryBase64DecodePolicy
+# )
 
 import os, uuid
 
