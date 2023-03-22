@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '2bb618be-2816-407a-8721-240e711dd57f'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'BuyMcs'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
