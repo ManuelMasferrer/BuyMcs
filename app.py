@@ -20,22 +20,20 @@ def home():
 
 @app.errorhandler(NotFound)
 def page_not_found_handler(e: HTTPException):
-    return 404
-
+    return "404"
 
 @app.errorhandler(Unauthorized)
 def unauthorized_handler(e: HTTPException):
-    return 401
-
+    return "401"
 
 @app.errorhandler(Forbidden)
 def forbidden_handler(e: HTTPException):
-    return 403
-
+    return "403"
 
 @app.errorhandler(RequestTimeout)
 def request_timeout_handler(e: HTTPException):
-    return 408
+    return "408"
+
 
 if __name__ == "__main__":
     app.run(port = 5000, debug = True, host='0.0.0.0')
