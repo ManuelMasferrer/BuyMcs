@@ -1,6 +1,5 @@
 FROM python:3.9.7-slim-buster
 
-
 RUN apt-get update \
     && apt-get -y install libpq-dev gcc 
 
